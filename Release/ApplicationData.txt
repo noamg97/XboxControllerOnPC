@@ -1,0 +1,45 @@
+~~ Ask For Auto Start ~~
+
+true
+
+
+
+
+~~ Thumbsticks Sensitivity ~~
+
+RightThumbstickSensitivity = 35
+LeftThumbstickSensitivity = 5
+
+
+
+
+~~ Special Buttons ~~
+
+Exit = Buttons.Back
+Shift = Buttons.RightTrigger
+Control = Buttons.LeftTrigger
+Alt = Button.None
+
+
+
+
+~~ Mouse-Like Buttons ~~
+
+LeftMouse = Buttons.RightStick
+MiddleMouse = Buttons.X
+RightMouse = Buttons.LeftStick
+
+
+
+
+~~ Keyboard-Like Buttons ~~
+
+{DOWN} = Buttons.DPadDown | true
+{UP} = Buttons.DPadUp | true
+{LEFT} = Buttons.DPadLeft | true
+{RIGHT} = Buttons.DPadRight | true | 100
+^{TAB} = Buttons.LeftShoulder
+^+{TAB} = Buttons.RightShoulder
+%{F4} = Buttons.B
+{HOME} = Buttons.Y
+{END} = Buttons.A
