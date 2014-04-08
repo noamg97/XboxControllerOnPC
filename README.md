@@ -1,4 +1,3 @@
-
 Use An Xbox Controller On Your PC
 -----------------------------------------------
 <br/><br/>
@@ -26,21 +25,21 @@ All the settings and default buttons can be found at "\Release\ApplicationData.t
 [Variable \ PC Action] = [Value \ Xbox Controller Button]<br/>
 </code>
 
-<b>Supported [KEY]s:</b><br/>
-	-<u>"Ask For Auto Start"</u>: specifies whether or not the program should ask to start at Start-Up.<br/>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Value must be true\false]<br/>
-	-<u>"Thumb-sticks Sensitivity"</u>: specifies the ratio between the mouse speed and the controller's thumb-stick.<br/>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Two variables must be declared and assigned: "RightThumbstickSensitivity" and "LeftThumbstickSensitivity"]<br/>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Value must be a valid number]<br/>
-	-<u>"Special Buttons"</u>: assigns value to non-regular buttons (exits button & buttons that need to be added to other button presses, such as Ctrl, Shift, and Alt)<br/>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Optional variables are "Exit", "Shift", "Control", "Alt"]<br/>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Value must be a valid Xbox button, as will be specified later]<br/>
-	-<u>"Mouse-Like Buttons"</u>: buttons on the xbox controller that act like a mouse button.<br/>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Optional variables are "LeftMouse", "RightMouse", "MiddleMouse"]<br/>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Value must be a valid Xbox button, as will be specified later]<br/>
-	-<u>"Keyboard-Like Buttons"</u>: buttons on the xbox controller that act like a keyboard button or a combination of such.<br/>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[The variable specified must be in Windows' format, extensively explained at: http://msdn.microsoft.com/en-us/library/system.windows.forms.sendkeys.send(v=vs.110).aspx]<br/>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Value must be a valid Xbox button, as will be specified later, optionally followed by two other variables, also specified later in this README]<br/>
+<h5>Supported [KEY]s:</h5><br/>
+	<b>-"Ask For Auto Start"</b>: specifies whether or not the program should ask to start at Start-Up.<br/>
+		[Value must be true\false]<br/>
+	<b>-"Thumb-sticks Sensitivity"</b>: specifies the ratio between the mouse speed and the controller's thumb-stick.<br/>
+		[Two variables must be declared and assigned: "RightThumbstickSensitivity" and "LeftThumbstickSensitivity"]<br/>
+		[Value must be a valid number]<br/>
+	<b>-"Special Buttons"</b>: assigns value to non-regular buttons (exits button & buttons that need to be added to other button presses, such as Ctrl, Shift, and Alt)<br/>
+		[Optional variables are "Exit", "Shift", "Control", "Alt"]<br/>
+		[Value must be a valid Xbox button, as will be specified later]<br/>
+	<b>-"Mouse-Like Buttons"</b>: buttons on the xbox controller that act like a mouse button.<br/>
+		[Optional variables are "LeftMouse", "RightMouse", "MiddleMouse"]<br/>
+		[Value must be a valid Xbox button, as will be specified later]<br/>
+	<b>-"Keyboard-Like Buttons"</b>: buttons on the xbox controller that act like a keyboard button or a combination of such.<br/>
+		[The variable specified must be in Windows' format, extensively explained at: http://msdn.microsoft.com/en-us/library/system.windows.forms.sendkeys.send(v=vs.110).aspx]<br/>
+		[Value must be a valid Xbox button, as will be specified later, optionally followed by two other variables, also specified later in this README]<br/>
 
 		
 		
